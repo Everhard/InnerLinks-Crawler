@@ -1,0 +1,18 @@
+{
+  "name": "steadfast/internal-links-crawler",
+  "description": "Internal links crawler written on PHP.",
+  "keywords": ["crawler", "links", "website", "seo"],
+  "homepage": "https://github.com/Everhard/InternalLinks-Crawler",
+  "authors": [
+    {
+      "name": "Andrew Dorokhov",
+      "homepage": "https://dorohoff.net"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
